@@ -1,8 +1,8 @@
 // создаем переменную, куда будем записывать текущее значение счетчика
 const counterEI = document.querySelector('[data-find = "counteValue"]');
-let button = document.querySelector("addOnePoolButton");
-let counterText = document.querySelector("addTwoPoolsButton");
-let reset = document.querySelector("resetButton");
+const button = document.querySelector("#addOnePoolButton");
+const counterText = document.querySelector("#addTwoPoolsButton");
+const reset = document.querySelector("#resetButton");
 // переменные вверху - это связь с элементами страницы
 // переменная внизу - данные про реальный счетчик, нажимая на кнопку мы меняем данные счетчика counter = counter + 1; - меняем значение переменной
 const COUNTER_INITIAL_VALUE = 0; //INITIAL - ПРИНЯТОЕ ЗНАЧЕНИЕ ПО УМОЛЧАНИЮ (с которого инициируется переменная)
